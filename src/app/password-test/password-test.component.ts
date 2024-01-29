@@ -70,10 +70,7 @@ checkStrength(password: string){
 
     force += passedMatches;
 
-    force = passedMatches === 1 ? Math.min(force, 1) : force;
-    force = passedMatches === 2 ? Math.min(force, 2) : force;
-    force = passedMatches === 3 ? Math.min(force, 3) : force;
-
+    
     return force;
 }
 
