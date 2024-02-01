@@ -1,0 +1,13 @@
+.password-form{
+    width: 400px;
+    height: 80px;
+    border: 2px solid #c0c0c0;
+    border-radius: 16px;
+    font-size: 18pt;
+    padding-left: 20px;
+}
+
+.password-form:focus{
+    outline: none;
+    border: 2px solid #c0c0c0;
+}
